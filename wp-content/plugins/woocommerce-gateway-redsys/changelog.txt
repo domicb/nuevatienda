@@ -1,0 +1,549 @@
+*** Redsys Gateway Change Log ***
+
+2021.09.13 - version 16.1.1
+
+* FIXED: Fixed Warning in admin WC_Helper_Options 
+
+2021.09.12 - version 16.1.0
+
+* NEW: Now you can select Order Number format in Redsys redirection.
+* NEW: Multisite deep compatibility. Now you have specific options for WordPress Multisite.
+* NEW: You can see Redsys new guides and posts in WordPress Dashboard.
+* NEW: Now you can add a custom logo for InSite.
+* NEW: Now you can select between InSite (Redsys in the checkout) Independent Elements credit card form (default) or Integrated credit card form.
+* IMPROVED: String translation.
+* IMPROVED: Webservice.
+* IMPROVED: Now Paygold check for SOAP and SimpleXML.
+* FIXED: Removed a debug line in Redsys redirection screen settings.
+* FIXED: Now you can make a InSite refund.
+* FIXED: Now you can make a Subscription refund.
+* FIXED: Fixed an error telling to subscriptions that is a Fail order.
+* FIXED: Fixed a problem with payments with free subscriptions and with users with token.
+* FIXED: Fixed a problem in My Account > Payment Methods, where in some cases when there are not Redsys Tokens an error are screened.
+
+2021.07.05 - version 16.0.1
+
+* FIXED: Fixed a problem with PayGold, the metabox was trying to load in other post types
+* Updated: Updated all new translations
+
+2021.07.04 - version 16.0.0
+
+* NEW: Added PayGold Method
+* NEW: Added new Bizum Filter. Now you can use infinite terminals with bizum_modify_data_to_send filter.
+* NEW: Added all new Redsys errors to the plugins. Now recognizes more that 1.370 Redsys errors.
+
+2021.06.21 - version 15.2.2
+
+* FIXED: In v15.2.1 I introduced a bug that prevented the return of orders prior to v15.2.1. 
+
+2021.06.21 - version 15.2.1
+
+* IMPROVED: Improved filter redsys_modify_data_to_send. Now FUC is saved as meta, so refunds work correctly.
+* FIXED: Removed a Redsys Method not ready. Sorry, I forget to comment a line, and a not ready Redsys method was loaded on the WooCommerce Payment settings page.
+
+2021.06.19 - version 15.2.0
+
+* NEW: Now InSite is hidden in the Add Method page.
+* NEW: Now you can activate Redsys redirection only in Add Method page.
+* FIXED: Fixed an issue where data could not be copied to the admin profile page.
+* FIXED: Fixed the order "1 billion".
+
+2021.06.09 - version 15.1.2
+
+* Fixed: Problem with Bizum.
+
+2021.06.01 - version 15.1.1
+
+* Fixed: Replacing a jQuery that I had accidentally deleted.
+
+2021.06.01 - version 15.1.0
+
+* NEW: Added Pay with 1click to Redsys in Checkout (by Jose Conti) - InSite
+* NEW: Added an API function that can be called by passing the $order_id and in this way charge it WCRed()->collect_invoice_by_id( $order_id )
+* NEW: Added a column in the Payments method for know is the token is for Pay with 1click or Subscriptions.
+* NEW: Now you can you tell to InSite the checkout field billing_first_name if it is customized.
+* NEW: Now InSite is reloaded if the Checkout field billing_first_name is updated.
+* NEW: Now you can set a limit cart amount for use Bizum.
+* NEW: Added dns-prefetch for InSite JS.
+* NEW: Added InSite compatibility with SNI.
+* NEW: Now, you can hide a payment method in the checkout when it is in test mode and select who can view it.
+* IMPROVED: Improved Site Health.
+* IMPROVED: Now Checkout is only reloaded when there is an error when InSite is active.
+* IMPROVED: All JS plugin files minified.
+* IMPROVED: Now a finger pointer is show when cursor is over InSite Pay button.
+* UPDATED: Updated the email send to admin when Ds_Card_Number is not send by Redsys.
+* FIXED: TRA and LWV in standard payment.
+* FIXED: Fixed a Bizum payment problem over some servers configuration.
+* FIXED: Fixed a problem with flush rules (Thanks to @frantorres)
+* FIXED: Fixed some Undefined variables & properties.
+
+2021.03.26 - version 15.0.3
+
+* NEW: Added more customizations to Redsys in Checkout (by Jose Conti) - InSite.
+* NEW: Updated title and description of Redsys in Checkout (by Jose Conti) - InSite
+* FIXED: Fixed 4 PHP Warnings.
+* FIXED: Fixed Fixed a problem with card with amounts over 30€
+
+2021.03.03 - version 15.0.2
+
+* REFACTORING: InSite Refactoring to charge after abandoning the checkout page.
+* NEW: Added WooCommerce Errors to checkout about credit card payments.
+
+2021.02.23 - version 15.0.0
+
+* NEW: Refactoring InSite
+* NEW: Added Credit card form on the checkout page
+* NEW: TRA for InSite
+* NEW: Added SHA256 test settings to InSite
+* NEW: Added User test to InSite
+* NEW: Added Redsys order number meta in every Redsys plugin edit Order.
+* FIXED: KO Return from Redsys when is Add Method.
+* FIXED: Now PSD2 use numeric code indeed Alpha-2
+
+2021.01.28 - version 14.0.3
+
+* FIXED: Workaround with the Ds_ExpiryDate because Redsys stop to send it by default.
+* FIXED: Fixed Redsys (by Jose Conti) checkout description.
+
+2021.01.18 - version 14.0.2
+
+* FIXED: fixed a problem with refunds introduced in version 14.0.0.
+
+2021.01.18 - version 14.0.1
+
+* FIXED: Removed a debug line in Global Class which caused a fatal error. 
+
+2020.01.14 - version 14.0.0
+
+* NEW: Added compatibility with Yith WooCommerce Subscriptions Premium.
+* NEW: Added WooCommerce Add Payment Method feature.
+* NEW: Added the ability to see all user tokens from the User Edit administration page.
+* NEW: Added TRA SCA with a max price. WARNING: Your bank has to activate it in your terminal.
+* NEW: The receipt page has been removed from Redsys (by Jose Conti) so after press the Pay button, the customer directly arrives at Redsys. This functionality will be added to the other forms of payment throughout future versions.
+* NEW: Now the plugin deactivates other Redsys Plugins on activation. It causes too many problems that other Redsys plugins are active, and many people do not read the warnings or instructions.
+* NEW: Added more checks to mark renewal subscriptions as paid. For some reason, Redsys does not always respond via Webservice even if the renewal is done correctly.
+* FIXED: Fixed a problem with BIZUM where the orders have not been marked as paid in test mode.
+* FIXED: Problem with TXNID.
+* Declared compatibility with WooCommerce 4.9
+* Fixed a problem with Preauthorization Logs
+
+2020.12.28 - version 13.0.0
+
+* Full compatibility with PSD2.
+* Declared compatibility with WordPress 5.6
+* Full translation to Spanish. Thanks to Fernando Tellado https://twitter.com/fernandot
+
+
+2020.12.06 - version 12.2.0
+
+* Added compatibility Bulk charge Invoices with PSD2.
+* Declared compatibility with WooCommerce 4.8
+
+2020.12.04 - version 12.1.1
+
+* Fixed a problem with subscription renewal under PDS2.
+
+2020.11.30 - version 12.1.0
+
+* NEW: Added official InSite plugin to Health Check.
+* NEW: Added a warning if WooCommerce is not connected to WooCommerce.com.
+* NEW: Added date, hour, Commerce name, and FUC to the thank you page.
+* NEW: Added a Redsys meta tab to the product edit page with options. Now you can get a Token for some products. 
+
+2020.11.14 - version 12.0.3
+
+* Removed ghost button at the receipt page when is Browser iFrame.
+* Fixed a problem related to Tokenization and Pay with 1 clic.
+
+2020.11.11 - version 12.0.2
+
+* Extended explanations in Health Site to better explain the problems that cause the errors.
+* Fixed a bug in Credit card Widget with "height"
+* Fixed a problem related to receip page
+* Fixed a problem related to Subscriptions
+* Fixed a problem related to old tokens and PSD2
+* Declared compatibility with WooCommerce 4.7
+
+2020.11.10 - version 12.0.1
+
+* Fixed a problem with PSD2 when a user has never bought in the store.
+* Fixed a strange problem in some servers where there is a 500 server error in the notification end-point.
+* Fixed a problem with an array() in logs.
+* Updated a variable name from capital letters to lowercase
+
+2020.11.06 - version 12.0.0
+
+* NEW: Now is PSD2 Ready. Check Redsys (by Jose Conti) settings.
+* NEW: Added items to Site Health.
+* Redsys Browser iframe. Check Redsys (by Jose Conti) settings.
+* Declared compatibility with WooCommerce 4.6
+
+
+2020.08.06 - version 9.4.0
+
+* NEW: Now you can select what to show in Redsys Description
+* NEW: Added a very big Notice Warning when other Redsys plugin is in use.
+* Declared compatibility with WooCommerce 4.4
+
+2020.07.24 - version 9.3.0
+
+* Added new languages
+* Added more priority to WCRed() function
+
+2020.07.16 - version 9.2.3
+
+* Fixed InSite.
+
+2020.07.13 - version 9.2.2
+
+* Fixed Charge Orders Bulk Action.
+
+2020.07.12 - version 9.2.1
+
+* Fixed all Bulk Actions.
+* Removed many notices, included in Redsys API files.
+* Fixed a Ghost column when Invoices is active.
+* Updated po/mo files
+
+2020.07.09 - version 9.2.0
+
+* NEW: Now there is a Gateway for Direct Debit so you can use plugins for Gateway Logic for use it.
+* NEW: Now you can customize the button text at the checkout by Gateway
+* NEW: Now you can customize the button colors at the checkout by Gateway
+* NEW: Added Redsys authorization number to Thank you page. Activate from Redsys (by Jose Conti)
+* Removed dimisible Scripts
+* Fixed: Missing default inSite Logo at the checkout
+* Fixed: Fatal error at Redsys Endpoint when Subscriptions don't save token is active.
+* Fixed: Fixed an error with MasterPass End Point.
+* Fixed: authorize preauthorizartions error if Redsys (by Jose Conti) is empty.
+* Fixed: Many annotations in preauthorizations order.
+* Fixed: Compatibility with Custom User Registration Fields for WooCommerce
+* Declared compatibility with WooCommerce 4.3
+* Updated po/mo files
+
+2020.06.10 - version 9.1.1
+
+* Fixed: Forgot to add InSite file.
+
+2020.06.09 - version 9.1.0
+
+* NEW: Added InSite
+
+2020.06.02 - version 9.0.2
+
+* Improved Tokens Check
+
+2020.05.31 - version 9.0.1
+
+* Improved notice in the Checkout about Gateways in Test Mode.
+* Fixed a problem with Webservice. A deprecated field was causing errors with the signature.
+
+
+2020.05.25 - version 9.0.0
+
+* NEW: Added Redsys Bank Transfer
+* NEW: Added Checkout Notice for know when a Gateway is in Test Mode
+* Updated where to find Gateways Logs
+
+2020.05.22 - version 8.0.0
+
+* NEW: Added exclusive gateway for pre-authorizations through Redsys.
+* NEW: Now the customer name is sent to Redsys.
+* Added more functions to WooCommerce Redsys Gateway API.
+* Fixed an error with language selections at MasterPass settings.
+* Fixed a notice that caused a header already send.
+
+2020.04.23 - version 7.1.0
+
+* NEW: Added bulk Refund action.
+* Fixed problem approving pre-authorization at some servers.
+
+2020.04.22 - version 7.0.2
+
+* Fixed error at product screen > Private Product tab.
+* Fixed including email file.
+
+2020.04.21 - version 7.0.1
+
+* Fixed ALL Official Redsys API Files. The oficial API files there were causing header already sent
+
+2020.04.21 - version 7.0.0
+
+* NEW: Added MasterPass
+* New check of tokens. Before use a token, the plugin check if it is a Redsys token (specially for Subscriptions).
+* New Year/Date token check before use it. Now, the plugin check if the Token is currently active, if it is not active, the Token is removed and a new token is requested.
+* Now you can disable tokenization for WooCommerce Subscriptions. Tokenization is enabled by default (Enable Pay with One Click is not needed).
+* Now, all Payment methods are in WooCommerce Gateways list.
+* Refactoring allowed currencies check.
+* Added more languages support
+* Removed Orders Export.
+* General refactoring code & adding tools for developers with magic global function WCRed()
+* Date, hour, auth Data unification in order admin page.
+* Removed iUpay
+* Declared compatibility with WooCommerce 4.0
+* Declared compatibility with WordPress 5.4
+
+2020.02.07 - version 6.1.0
+
+* NEW: Refunds Bizum
+* NEW: Test mode by User (Bizum).
+* NEW: Test SHA256 at settings (Credit card & Bizum)
+* Improvement: Now you don't have to activate 1-click payment to get the token if the order is a subscription.
+* Improvement: Better update notice.
+* Fixed: Now a log is not saved that was saved even if the Redsys log was not activated.
+
+
+2020.01.01 - version 6.0.0
+
+* NEW: Added Bizum
+* NEW: Added compatibility with WooCommerce Deposits.
+* Fixed a problema with Redsys Credit Card Image Widget. It was inadvertently removed in the previous version.
+* Now ALL Webservice connections are forced without verification.
+* Now, all new tokens are forced as default,
+
+2019.11.06 - version 5.4.5
+
+* Added more debug code.
+* Updated some deprecated subscriptions functions.
+
+2019.11.05 - version 5.4.4.1
+
+* Refactoring
+
+2019.11.05 - version 5.4.4
+
+* Fixed a bug inherited by a refactoring whereby currencies were not loaded correctly.
+* Fixed a typo in a sanitization function
+
+2019.10.30 - version 5.4.3
+
+* Fixed a bug where the invoice numbers were not shown in the order list.
+* Added a check on the than you page in case someone arrives directly without being redirected by an order.
+* Fixed a bug where if there was a user in the list of user test mode, that user always used the gateway in test mode even if the test mode was not activated.
+* I have eliminated the possibility for users to change their payment method, as WooCommerce charges the subscription fee again. I will look for a way that does not charge anything.
+* Improved the design of the administration notice about updates.
+
+2019.10.15 - version 5.4.2
+
+* Fixed a strange problem where in some shops a development filter was loaded and caused the thankyou page to go blank.
+
+2019.10.14 - version 5.4.1
+
+* I've hidden the option of adding payment methods through Redsys because I didn't get a valid solution from the developers of WooCommerce.
+* I have fixed the problem with 0 amount payments when there is a user token.
+
+2019.10.07 - version 5.4.0
+
+* NEW: Added test mode for specific users.
+* NEW: Added a Widget for Credit cards.
+* NEW; Now, when a subscription fails, scheduled woocommerce_scheduled_subscription_payment_retry is created.
+* NEW: If there is a problem renewing a subscription, an email is now sent to the site administrator.
+* NEW: Added Order comments with the error when there is a problem renewing a subscription 
+* Added a separate file for currencies.
+* Added more debug lines
+* Fixed the double email by Subscription renewal.
+
+2019.09.18 - version 5.3.1
+
+* NEW: Added Fake data when Redsys doesn't send some fields.
+* Fixed a rare problem with Subscription renewals.
+
+2019.09.11 - version 5.3.0
+
+* NEW: Added Redsys Bulk Action: "Approve Pre-authorization".
+
+2019.09.09 - version 5.2.0
+
+* NEW: Added Redsys Bulk Action: "Immediate Redsys Charge".
+* Fixed a string.
+
+2019.09.06 - version 5.1.3
+
+* NEW: Added a notice linking to PSD2 / SCA. Post.
+* NEW: Added +230 new currencies supported by Redsys.
+
+2019.08.25 - version 5.1.2
+
+* Fixed a problem when the when the price is less than 1
+
+2019.07.23 - version 5.1.1
+
+* Fixed a Notice in the dashboard
+
+2019.07.22 - version 5.1.0
+
+* NEW: Added a Check at Thank you page. If a customer arrive to Thank you page, and the order has not been market as paid, and email is send to administrator. Go to settings for activate it and/or modify text.
+* Added many index.php
+* NEW: Added a notification to explain all the improvements that have been made in the new version.
+
+2019.07.15 - version 5.0.1
+
+* Fixed a problem with redirection related to new Subscription feature.
+* Refactoring
+
+2019.07.15 - version 5.0.0
+
+* NEW: Added compatibility with WooCommerce Subscriptions
+
+2019.07.12 - version 4.7.0
+
+* NEW: Payment with 1 click without leaving the website
+* NEW: Now the plugin recognizes new credit cards added by Redsys.
+* More debug information
+
+2019.03.07 - version 4.6.2
+
+* Fixed a random problem with some themes related to a redirection option
+
+2019.03.04 - version 4.6.1.1
+
+* Fixed dismissible admin_notices
+
+2019.03.04 - version 4.6.1
+
+* NEW: Added a notice in the WordPress Dashboard for remember that you can contact if there is a problem with the plugin.
+* Fixed Translation strings.
+* Updated mo/po files
+
+2019.03.04 - version 4.6.0
+
+* NEW: Now you can enable an email to be sent to the customer when he has a problem paying at Redsys. This helps the recovery of abandoned carts due to customer frustration with payment.
+* NEW: Added a filter to modify email text.
+* NEW: Added a link to make a twit if you like the plugin.
+* Fixed some notices.
+* Updated deprecated function.
+* Updated mo/po files
+
+2019.02.25 - version 4.5.1
+
+* Now you can select what to do after payment. Mark as Processing (WooCommerce Default) or Mark as Complete.
+
+2019.01.15 - version 4.5.0
+
+* NEW: Added currency Redsys Code to filter
+* NEW: Added more info to emails when a customer has a problem in Redsys.
+* NEW: Added email when Pay with one click (Tokenization) is active but Redsys is not sending all needed data in the callback.
+* NEW: Now SHA256, currency and terminal are saved as Order Metadata.
+* NEW: Added 3 helpful support link in Redsys Settings (Plugin documentation, FAQ & Open a Ticket)
+
+2018.06.22 - version 4.4.1
+
+* Fixed a multiform on order-pay
+* Fixed a problem with Microsoft Edge Browser, in some cases, Redsys can respond with order already send.
+
+2018.06.18 - version 4.4.0
+
+* NEW: Added a filter for modify Redsys valors from a third plugins or Theme.
+* Fixed a problem with the redirection to Redsys with some Chrome versions.
+
+2018.05.14 - version 4.3.0
+
+* NEW: Added Type of payment Dropdown.
+* NEW: Added Direct Debit payment
+* NEW: Added Private Products
+* updated po/mo
+
+2018.05.10 - version 4.2.0
+
+* WANRNING: Renamed main file (New WooCommerce Marked Place requeriment). YOU WILL NEED TO REACTIVATE THE PLUGIN
+* NEW: Added Preauthorizations.
+* NEW: Added Approve preauthorization from orders page.
+* NEW: Added option for redirect to checkout after add a product to the cart.
+* Updated po/mo.
+* Fixed Notice: prueba not defined.
+* Added Woo header
+
+2018.03.09 - version 4.1.0
+
+* NEW: Added ability to send emails when a payment fails with information about the payment errors. Check extension setting.
+* Updated po/mo
+
+2018.03.05 - version 4.0.1
+
+* Added more allowed currencies.
+* Improved credit cards identification.
+* Updated Headers extension
+* Updated po/mo
+
+2018.02.21 - version 4.0.0
+
+* NEW: Added refund.
+* NEW: Added Tokenization (Pay with 1 click).
+* NEW: Added ability for customize checkout logo.
+* NEW: Added Redsys API for PHP 7.x
+* Updated deprecated code.
+
+2017.02.20 - version 3.2.0
+
+* NEW: Added compatibility with SNI Certificates (ex: Let's Encrypt). You need to activate SNI compatibility in Redsys Settings.
+
+2016.02.17 - version 3.1.1
+
+* Fixed language selection
+* Removing obsolete SHA-1 code
+* Fixed Iupay message
+* Updated some messages
+* Updated language files
+
+2015.11.03 - version 3.0
+
+* NEW: Added new SHA-256 API to Redsys.
+* NEW: Added new SHA-256 API to Iupay.
+* NEW: Added check for if the admin added the new secret SHA-256 Redsys settings.
+* NEW: Added check for if the admin added the new secret SHA-256 for Iupay settings.
+* NEW: Added Check for mcrypt_encrypt needed for the new SHA-256 API.
+* Updated translation files.
+
+2015.08.05 - Version 2.1
+
+* Fixed a bug in Sequential Invoice number.
+
+2015.06.02 - Version 2.0
+
+* NEW: Added Iupay!.
+* NEW: Added Sequential Invoice number.
+* NEW: Added Export Orders to CSV.
+* Updated Redsys URL
+* Fixed code for some test Banks.
+* Added Ds_Merchant_MerchantName
+
+2015.2.11 - version 1.9
+* Added compatibility with WooCommerce 2.3
+
+2014.08.08 - version 1.8
+ * Added some meta to Orders
+ * Ds_AuthorisationCode
+ * Ds_Date
+ * Ds_Hour
+ * Ds_AuthorisationCode
+ * Ds_Card_Country
+
+2014.06.21 - version 1.7
+ * NEW: Added compatibility with WPML. Now, the Redsys Gateway is shown in the customer language if WPML is installed.
+
+2014.06.15 - version 1.6
+ * NEW: Added compatibility with "WooCommerce Sequential Order Numbers Pro"
+
+2014.05.06 - version 1.5.1
+ * Fixed Terminal number.
+
+2014.04.30 - version 1.5
+ * NEW: Added ability for select the language for Redsys Gateway from admin panel.
+ * NEW: Added a Second Terminal, now the Admins can set a second terminal.
+ * Fixed a problem with shops under HTTPS
+
+2014.04.23 - version 1.4
+ * Fixed return url when the payment fails
+
+2014.01.10 - version 1.3
+ * Compatibility fix with WooCommerce 2.1
+
+2013.10.09 - version 1.2
+ * Fix a posible problem with duplicated orders number and Redsys Gateway if the customer go back.
+
+2013.06.25 - version 1.1
+ * Fixed odd caracter
+ * Added BRL currency
+
+2013.03.21 - version 1.0
+ * First Release

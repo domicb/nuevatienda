@@ -1,0 +1,309 @@
+# Translation of Plugins - Order Delivery Date for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Order Delivery Date for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-12 07:50:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Order Delivery Date for WooCommerce - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.tychesoftwares.com/about"
+msgstr "http://www.tychesoftwares.com/about"
+
+#. Author of the plugin/theme
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. Description of the plugin/theme
+msgid "This plugin allows customers to choose their preferred Order Delivery Date during checkout."
+msgstr "Este plugin permite a los clientes escoger su fecha de entrega preferida al finalizar la compra."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.tychesoftwares.com/store/free-plugin/order-delivery-date-on-checkout/"
+msgstr "http://www.tychesoftwares.com/store/free-plugin/order-delivery-date-on-checkout/"
+
+#. Plugin Name of the plugin/theme
+msgid "Order Delivery Date for WooCommerce (Lite version)"
+msgstr "Order Delivery Date para WooCommerce (versión Lite)"
+
+#: order_delivery_date.php:518
+msgid "Clear"
+msgstr "Vaciar"
+
+#: order_delivery_date.php:197
+msgid "Order Delivery Date for WooCommerce (Lite version) plugin requires WooCommerce installed and activate."
+msgstr "El plugin Order Delivery Date para WooCommerce (versión Lite) requiere tener WooCommerce instalado y activado."
+
+#: orddd-lite-settings.php:755
+msgid "Featured Products"
+msgstr "Productos destacados"
+
+#: orddd-lite-settings.php:747
+msgid "Virtual Products"
+msgstr "Productos virtuales"
+
+#: orddd-lite-settings.php:733
+msgid "Preview theme:"
+msgstr "Previsualizar tema:"
+
+#: orddd-lite-settings.php:678
+msgid "In Shipping Section"
+msgstr "En el departamento de envíos"
+
+#: orddd-lite-settings.php:677
+msgid "In Billing Section"
+msgstr "En el departamento de facturación"
+
+#: orddd-lite-settings.php:378 orddd-lite-settings.php:386
+#: orddd-lite-settings.php:394
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: orddd-lite-settings.php:370 orddd-lite-settings.php:398
+msgid "Holidays"
+msgstr "Festivos"
+
+#: orddd-lite-settings.php:429
+msgid "Weekdays:"
+msgstr "Días laborables:"
+
+#: orddd-lite-settings.php:369
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: orddd-lite-settings.php:238
+msgid "Disable the Delivery Date Field for:"
+msgstr "Desactivar el campo \"Fecha de entrega\" para:"
+
+#: orddd-lite-settings.php:56
+msgid "Mandatory field?:"
+msgstr "¿Campo obligatorio?:"
+
+#: orddd-lite-settings.php:233
+msgid "Select the theme for the calendar which blends with the design of your website."
+msgstr "Selecciona el tema para el calendario que combine mejor con el diseño de tu sitio web."
+
+#: orddd-lite-settings.php:229
+msgid "Theme:"
+msgstr "Tema:"
+
+#: orddd-lite-settings.php:224
+msgid "</br>The Delivery Date field will be displayed in the selected section.</br><i>Note: WooCommerce automatically hides the Shipping section fields for Virtual products.</i>"
+msgstr "</br>El campo \"Fecha de entrega\" aparecerá en la sección seleccionada.</br><i>Nota: WooCommerce esconde automáticamente los campos de envío para productos virtuales.</i>"
+
+#: orddd-lite-settings.php:220
+msgid "Field placement on the Checkout page:"
+msgstr "Ubicación del campo en la página de Finalizar compra:"
+
+#: orddd-lite-settings.php:242
+msgid "<br>Disable the Delivery Date on the Checkout page for Virtual products and Featured products."
+msgstr "<br>Desactivar la Fecha de entrega en la página de Finalizar compra para Productos virtuales y Productos destacados. "
+
+#: orddd-lite-settings.php:215
+msgid "The number of months to be shown on the calendar."
+msgstr "Número de meses que se muestran en el calendario."
+
+#: orddd-lite-settings.php:211
+msgid "Number of Months:"
+msgstr "Número de meses:"
+
+#: orddd-lite-settings.php:206
+msgid "Choose the note to be displayed below the delivery date field on checkout page."
+msgstr "Escoge la nota que se mostrará debajo del campo de fecha de entrega en la página de finalizar compra."
+
+#: orddd-lite-settings.php:202
+msgid "Field Note Text:"
+msgstr "Texto en el campo \"Nota\":"
+
+#: orddd-lite-settings.php:197
+msgid "Choose the placeholder text that is to be displayed for the field on checkout page."
+msgstr "Escoge el texto del marcador de posición que se mostrará para el campo en la página de Finalizar compra."
+
+#: orddd-lite-settings.php:193
+msgid "Field Placeholder Text:"
+msgstr "Texto en el campo \"Marcador de posición\":"
+
+#: orddd-lite-settings.php:188
+msgid "Choose the label that is to be displayed for the field on checkout page."
+msgstr "Escoge la etiqueta que se mostrará para el campo en la página de finalizar compra."
+
+#: orddd-lite-settings.php:179
+msgid "Choose the first day of week displayed on the Delivery Date calendar."
+msgstr "Escoge el primer día de la semana que se mostrará en el calendario de fecha de entrega."
+
+#: orddd-lite-settings.php:175
+msgid "First Day of Week:"
+msgstr "Primer día de la semana:"
+
+#: orddd-lite-settings.php:170
+msgid "The format in which the Delivery Date appears to the customers on the checkout page once the date is selected."
+msgstr "El formato en el que la fecha de entrega se muestra a los clientes en la página de finalizar compra una vez que la fecha se ha seleccionado."
+
+#: orddd-lite-settings.php:166
+msgid "Date Format:"
+msgstr "Formato de fecha:"
+
+#: orddd-lite-settings.php:157
+msgid "Calendar Language:"
+msgstr "Idioma del calendario:"
+
+#: orddd-lite-settings.php:150
+msgid "Calendar Appearance"
+msgstr "Apariencia del calendario"
+
+#: orddd-lite-settings.php:87
+msgid "Auto-populate first available Delivery date when the checkout page loads."
+msgstr "Rellenar automáticamente con la primera fecha de entrega disponible cuando se cargue la página de finalizar compra."
+
+#: orddd-lite-settings.php:83
+msgid "Auto-populate first available Delivery date:"
+msgstr "Rellenar automáticamente con la primera fecha de entrega disponible:"
+
+#: orddd-lite-settings.php:78
+msgid "Enable default sorting of orders (in descending order) by Delivery Date on WooCommerce -> Orders page"
+msgstr "Activar la ordenación por defecto de los pedidos (en orden descendiente) por fecha de entrega en WooCommerce -> Página de pedidos"
+
+#: orddd-lite-settings.php:74
+msgid "Sort on WooCommerce Orders Page:"
+msgstr "Ordenar en la página de pedidos de WooCommerce:"
+
+#: orddd-lite-settings.php:69
+msgid "Maximum deliveries/orders per day."
+msgstr "Número máximo de entregas/pedidos por día."
+
+#: orddd-lite-settings.php:60
+msgid "Selection of delivery date on the checkout page will become mandatory."
+msgstr "La selección de fecha de entrega en la página de finalizar compra será obligatoria."
+
+#: orddd-lite-settings.php:47
+msgid "Number of dates to choose:"
+msgstr "Número de fechas para escoger:"
+
+#: orddd-lite-settings.php:42
+msgid "Minimum number of hours required to prepare for delivery."
+msgstr "Número mínimo de horas requerido para preparar el envío."
+
+#: orddd-lite-settings.php:368
+msgid "Date Settings"
+msgstr "Ajustes de fecha"
+
+#: orddd-lite-settings.php:184
+msgid "Field Label:"
+msgstr "Etiqueta del campo:"
+
+#: orddd-lite-settings.php:161
+msgid "Choose a Language."
+msgstr "Escoge un idioma."
+
+#: orddd-lite-settings.php:96
+msgid "If selected, then the Minimum Delivery Time (in hours) will be applied on the non working weekdays which are unchecked in Delivery Weekdays. If unchecked, then it will not be applied. For example, if Minimum Delivery Time (in hours) is set to 48 hours and Saturday is disabled for delivery. Now if a customer visits the website on Firday, then the first available date will be Monday and not Sunday."
+msgstr "Si está seleccionado, el \"Plazo mínimo de entrega\" (en horas) será aplicado a los días no laborables que estén desmarcados en \"Días de entrega\". Si no está seleccionado, entonces no se aplicará. Por ejemplo, si el plazo mínimo de entrega (en horas) está establecido en 48 horas y el sábado está desactivado para la entrega. Entonces si un cliente visita el sitio web un viernes, la primera fecha de entrega disponible será lunes y no domingo."
+
+#: orddd-lite-settings.php:92
+msgid "Apply Minimum Delivery Time for non working weekdays:"
+msgstr "Aplicar un plazo mínimo de entrega para los días no laborables:"
+
+#: orddd-lite-settings.php:65
+msgid "Lockout date after X orders:"
+msgstr "Bloquear la fecha después de X pedidos:"
+
+#: orddd-lite-settings.php:51
+msgid "Number of dates available for delivery."
+msgstr "Número de fechas disponibles para entrega."
+
+#: orddd-lite-settings.php:680
+msgid "After Order Notes"
+msgstr "Notas para después del pedido"
+
+#: orddd-lite-settings.php:679
+msgid "Before Order Notes"
+msgstr "Notas para antes del pedido"
+
+#: orddd-lite-settings.php:38
+msgid "Minimum Delivery time (in hours):"
+msgstr "Plazo mínimo de entrega (en horas):"
+
+#: orddd-lite-settings.php:29
+msgid "Delivery Days:"
+msgstr "Días de entrega:"
+
+#: orddd-lite-settings.php:13
+msgid "Order Delivery Date Settings"
+msgstr "Ajustes de Order Delivery Date"
+
+#: orddd-lite-config.php:125
+msgid "Saturday"
+msgstr "Sábado"
+
+#: orddd-lite-config.php:124
+msgid "Friday"
+msgstr "Viernes"
+
+#: orddd-lite-config.php:123
+msgid "Thursday"
+msgstr "Jueves"
+
+#: orddd-lite-config.php:122
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: orddd-lite-config.php:121
+msgid "Tuesday"
+msgstr "Martes"
+
+#: orddd-lite-config.php:120
+msgid "Monday"
+msgstr "Lunes"
+
+#: orddd-lite-config.php:119
+msgid "Sunday"
+msgstr "Domingo"
+
+#: class-view-holidays.php:83
+msgid "Date"
+msgstr "Fecha"
+
+#: class-view-holidays.php:82
+msgid "Name"
+msgstr "Nombre"
+
+#: class-view-holidays.php:42
+msgid "Delete"
+msgstr "Borrar"
+
+#: class-view-holidays.php:33
+msgid "holidays"
+msgstr "festivos"
+
+#: class-view-holidays.php:32
+msgid "holiday"
+msgstr "festivo"
+
+#: orddd-lite-settings.php:33
+msgid "Select weekdays for delivery."
+msgstr "Seleccionar los días de la semana para la entrega."
+
+#: orddd-lite-settings.php:24
+msgid "Enable Delivery Date capture on the checkout page."
+msgstr "Activar la opción \"Fecha de entrega\" en la página de finalizar compra."
+
+#: orddd-lite-settings.php:20
+msgid "Enable Delivery Date:"
+msgstr "Activar \"Fecha de entrega\":"
+
+#: order_delivery_date.php:476
+msgid "The database has been updated. You can now take advantage of all features of the Order Delivery Date plugin. Thank you."
+msgstr "La base de datos ha sido actualizada. Ahora puedes aprovechar todas las funciones del plugin Order Delivery Date. Gracias."
+
+#: order_delivery_date.php:463
+msgid "Order Delivery Date for WooCommerce Plugin needs to update your database. Please <a href=\"?page=order_delivery_date_lite&action=date&mode=update_db\">click here</a> to update."
+msgstr "El plugin para WooCommerce Order Delivery Date necesita actualizar la base de datos. Por favor, <a href=\"?page=order_delivery_date_lite&action=date&mode=update_db\">haz clic aquí</a> para actualizar."
+
+#: order_delivery_date.php:349
+msgid "Minimum Delivery time (in days) will now be calculated in hours which is from current WordPress time. To keep the functionality of our plugin intact at your site, we have added +24 hours to the 'Minimum Delivery time (in hours)' setting."
+msgstr "El tiempo mínimo de entrega (en días) se calculará ahora en horas, basándose en la hora de WordPress. Para mantener la funcionalidad de nuestro plugin intacta en tu sitio, hemos añadido +24 horas al ajuste «Tiempo mínimo de entrega (en horas)»."

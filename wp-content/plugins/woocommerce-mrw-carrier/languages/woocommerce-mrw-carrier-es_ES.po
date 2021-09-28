@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce MRW\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-24 08:21+0000\n"
+"PO-Revision-Date: 2020-12-01 11:30+0000\n"
+"Last-Translator: Pruebas MRW\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Source-Locale: en_GB\n"
+"X-Loco-Project-Id: 9883\n"
+"X-Loco-Api-Version: 1.0.16 20170414-1\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+msgid "Enable"
+msgstr "Habilitar"
+
+msgid "Enable MRW Carrier"
+msgstr "Habilitar transportista MRW"
+
+msgid "Title"
+msgstr "Nombre"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "Nombre que el usuario verá en el proceso de compra"
+
+msgid "Environment"
+msgstr "Entorno"
+
+msgid "Environment development/live"
+msgstr "Entorno desarrollo/real"
+
+msgid "Development environment"
+msgstr "Entorno de desarrollo"
+
+msgid "Live environment"
+msgstr "Entorno real"
+
+msgid "Franchise"
+msgstr "Franquicia"
+
+msgid "5 digits number XXXXX"
+msgstr "Número de 5 dígitos. XXXXX"
+
+msgid "Franchise number, must be 5 digits long"
+msgstr "Número de franquicia, debe tener 5 dígitos"
+
+msgid "e.g. 12345"
+msgstr "ej: 12345"
+
+msgid "Subscriber"
+msgstr "Abonado"
+
+msgid "Subsccriber number, must be 6 digits long"
+msgstr "Número de abonado, debe tener 6 dígitos"
+
+msgid "6 digits number XXXXXX"
+msgstr "Número de 6 dígitos. XXXXXX"
+
+msgid "e.g. 123456"
+msgstr "ej: 123456"
+
+msgid "Department"
+msgstr "Departamento"
+
+msgid "Department code (optional)"
+msgstr "Código de departamento (opcional)"
+
+msgid "Optional"
+msgstr "Opcional"
+
+msgid "MRW User"
+msgstr "Usuario MRW"
+
+msgid "MRW Password"
+msgstr "Contraseña MRW"
+
+msgid "Select services"
+msgstr "Selecciona servicio"
+
+msgid "Select MRW services"
+msgstr "Selecionar servicio de MRW"
+
+msgid "Notifications"
+msgstr "Notificaciones"
+
+msgid "Without notifications"
+msgstr "Sin notificaciones"
+
+msgid "Notifications via Email"
+msgstr "Notificaciones vía Email"
+
+msgid "Notifications via SMS"
+msgstr "Notificaciones vía SMS"
+
+msgid "Notifications via SMS and Email"
+msgstr "Notificaciones vía Email y SMS"
+
+msgid "Specific Countries"
+msgstr "Indique países (sólo disponible España)"
+
+msgid "Select some countries"
+msgstr "Seleccione países (sólo disponible España)"
+
+msgid "Error Log"
+msgstr "Log de errores"
+
+msgid "Check this option if you want to generate an error log"
+msgstr "Marque esta opción si desea generar un log de errores"
+
+msgid ""
+"This module allows you to automate the generation of the shipping labels and "
+"packages shipping vía MRW carrier"
+msgstr ""
+"Este módulo le permite automatizar la generación de etiqueta y envío de "
+"paquetes a través del transportista MRW."
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "All"
+msgstr "Todo"
+
+msgid "Save taxes"
+msgstr "Guardar tasas"
+
+msgid "Tablerate"
+msgstr "Tabla de costes"
+
+msgid "Generate label"
+msgstr "Generar etiqueta"
+
+msgid "Generating label"
+msgstr "Generando etiqueta"
+
+msgid "Download label"
+msgstr "Descargar etiqueta"
+
+msgid "Shipping number:"
+msgstr "Número de envío:"
+
+msgid "Shipping information:"
+msgstr "Información del envío:"
+
+msgid "There is no tracking information yet"
+msgstr "No existe todavía información de seguimiento"
+
+msgid "There has been an error generating the label"
+msgstr "Ha habido un problema al generar la etiqueta"
+
+msgid "Tracking information"
+msgstr "Información de seguimiento"
+
+msgid "Taxes saved"
+msgstr "Tasas guardadas"
+
+msgid "Ranges saved"
+msgstr "Rangos guardados"
+
+msgid "There is an error in ranges configuration"
+msgstr "Existe algún error en la configuración de los rangos"
+
+msgid "Calculate shipping from"
+msgstr "Calcular tasa a partir de"
+
+msgid "Weight"
+msgstr "Peso"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Show most expensive/Don´t show"
+msgstr "Mostrar tarifa más cara / No mostrar"
+
+msgid "Show most expensive rate"
+msgstr "Mostrar tarifa más cara"
+
+msgid "There has been a problem saving taxes"
+msgstr "Ha ocurrido un problema al guardar las tasas"
+
+msgid "Add range"
+msgstr "Añadir rango"
+
+msgid "Don`t show rate"
+msgstr "No mostrar transportista"
+
+msgid "If there is no shipping rate that match"
+msgstr "Si no existe tarifa a aplicar"
+
+msgid "The shipping label was generated successfully!"
+msgstr "¡Etiqueta de envío generada correctamente!"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "Number of packages"
+msgstr "Número de bultos"
+
+msgid "Comments"
+msgstr "Observaciones"
+
+msgid "Deliver on Saturday"
+msgstr "Entrega en Sábado"
+
+msgid "With return"
+msgstr "Con retorno"
+
+msgid "Default service"
+msgstr "Servicio por defecto"
+
+msgid "Available services"
+msgstr "Servicios disponibles"
+
+msgid "Wont be available if it isn't selected in available services"
+msgstr ""
+"No estará disponible si no se ha elegido en el apartado de servicios "
+"disponibles."
+
+msgid "Shipment information"
+msgstr "Información sobre el envío"
+
+msgid "Yes"
+msgstr "Si"
+
+msgid "No"
+msgstr "No"
+
+msgid "Write a comment (Optional)"
+msgstr "Escriba un comentario (Opcional)"
+
+msgid "Delivery in franchise"
+msgstr "Entrega en franquicia"
+
+msgid "Package apportionment"
+msgstr "Desglose de bultos"
+
+msgid "Check just in case your franchise tells you"
+msgstr "Márquese sólo en caso de que se lo indique su franquicia"
+
+msgid "MRW Tracking Password"
+msgstr "Contraseña de seguimiento MRW"
+
+msgid "Check this option if you want to do package apportionment"
+msgstr "Marque esta opción para realizar desglose de bultos"
+
+msgid "Weight/Price"
+msgstr "Peso/Precio"
+
+msgid "Delete range"
+msgstr "Eliminar rango"
+
+msgid "Tracking password, ask the franchise"
+msgstr "Contraseña de seguimiento, pregunta a tu franquicia"
+
+msgid "Pick up address"
+msgstr "Dirección de recogida"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Street"
+msgstr "Calle"
+
+msgid "Number"
+msgstr "Número"
+
+msgid "Postal code"
+msgstr "Código postal"
+
+msgid "City"
+msgstr "Ciudad"
+
+msgid "Change pick up address"
+msgstr "Cambiar dirección de recogida"
+
+msgid "Free delivery from"
+msgstr "Envío gratuito a partir de"
+
+msgid "Delivery free if the order price is above this amount. 0 to disable"
+msgstr ""
+"Envío gratuito si el precio del pedido es mayor o igual que este valor. 0 "
+"para deshabilitar."
+
+msgid "Free shipping if the order price is above this amount. 0 to disable"
+msgstr ""
+"Envío gratuito para pedidos cuyo precio es mayor o igual que este valor. 0 "
+"para deshabilitar."
+
+msgid "Spain"
+msgstr "España"
+
+msgid "Click on the select box to add available services"
+msgstr "Pulsa sobre el selector para añadir los servicios disponibles"
+
+msgid "Time slot"
+msgstr "Tramo horario"
+
+msgid "Time slot (just for Ecommerce service)"
+msgstr "Tramo horario (solo para el servicio Ecommerce)"
+
+msgid "Don't use time slot"
+msgstr "No utilizar tramo horario"
+
+msgid "Between 08:00 and 14:00 hours"
+msgstr "entre las 08:00 y las 14:00 horas"
+
+msgid "Between 16:00 and 19:00 hours"
+msgstr "entre las 16:00 y las 22:00 horas"
+
+msgid "Between 20:00 and 22:00 hours"
+msgstr "entre las 20:00 y las 22:00 horas"
+
+msgid "Order Status"
+msgstr "Estado del pedido"
+
+msgid "Order status when the label is generated"
+msgstr "Estado al que pasará el pedido cuando la etiqueta sea generada"
+
+msgid "Class SOAP must be active in order to generate labels"
+msgstr "La clase SOAP debe estar activa para poder generar etiquetas"
+
+msgid "Show order comments in labels"
+msgstr "Mostrar comentarios del pedido en las etiquetas"
+
+msgid "Check this option if you want to show order comments in the label"
+msgstr ""
+"Marca esta opción si quieres que los comentarios del pedido se muestren en "
+"las etiquetas"
+
+msgid "Default service for national shippings"
+msgstr "Servicio por defecto para envíos nacionales"
+
+msgid "Default international service"
+msgstr "Servicio por defecto para envíos internacionales"
+
+msgid "Default service for international shipping"
+msgstr "Servicio por defecto para envíos internacionales"
+
+msgid "Marketplaces Flag"
+msgstr "Marketplaces Flag"
+
+msgid ""
+"Check this option if you want to print market places labels. Just in case "
+"your franchise tells you"
+msgstr "Marcar esta opción solo en caso de que se lo indique su franquicia"
+
+msgid "Total weight (Kg)"
+msgstr "Peso total (Kg)"

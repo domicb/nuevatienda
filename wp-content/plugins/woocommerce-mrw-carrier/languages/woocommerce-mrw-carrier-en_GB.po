@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce MRW\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-24 08:21+0000\n"
+"PO-Revision-Date: 2020-12-01 11:30+0000\n"
+"Last-Translator: Pruebas MRW\n"
+"Language-Team: English (UK)\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Source-Locale: en_GB\n"
+"X-Loco-Project-Id: 9883\n"
+"X-Loco-Api-Version: 1.0.16 20170414-1\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "Enable MRW Carrier"
+msgstr "Enable MRW Carrier"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+msgid "Environment"
+msgstr "Environment"
+
+msgid "Environment development/live"
+msgstr "Environment development/live"
+
+msgid "Development environment"
+msgstr "Development environment"
+
+msgid "Live environment"
+msgstr "Live environment"
+
+msgid "Franchise"
+msgstr "Franchise"
+
+msgid "5 digits number XXXXX"
+msgstr "5 digits number XXXXX"
+
+msgid "Franchise number, must be 5 digits long"
+msgstr "Franchise number, must be 5 digits long"
+
+msgid "e.g. 12345"
+msgstr "e.g. 12345"
+
+msgid "Subscriber"
+msgstr "Subscriber"
+
+msgid "Subsccriber number, must be 6 digits long"
+msgstr "Subsccriber number, must be 6 digits long"
+
+msgid "6 digits number XXXXXX"
+msgstr "6 digits number XXXXXX"
+
+msgid "e.g. 123456"
+msgstr "e.g. 123456"
+
+msgid "Department"
+msgstr "Department"
+
+msgid "Department code (optional)"
+msgstr "Department code (optional)"
+
+msgid "Optional"
+msgstr "Optional"
+
+msgid "MRW User"
+msgstr "MRW User"
+
+msgid "MRW Password"
+msgstr "MRW Password"
+
+msgid "Select services"
+msgstr "Select services"
+
+msgid "Select MRW services"
+msgstr "Select MRW services"
+
+msgid "Notifications"
+msgstr "Notifications"
+
+msgid "Without notifications"
+msgstr "Without notifications"
+
+msgid "Notifications via Email"
+msgstr "Notifications via Email"
+
+msgid "Notifications via SMS"
+msgstr "Notifications via SMS"
+
+msgid "Notifications via SMS and Email"
+msgstr "Notifications via SMS and Email"
+
+msgid "Specific Countries"
+msgstr "Specific Countries"
+
+msgid "Select some countries"
+msgstr "Select some countries"
+
+msgid "Error Log"
+msgstr "Error Log"
+
+msgid "Check this option if you want to generate an error log"
+msgstr "Check this option if you want to generate an error log"
+
+msgid ""
+"This module allows you to automate the generation of the shipping labels and "
+"packages shipping vía MRW carrier"
+msgstr ""
+"This module allows you to automate the generation of the shipping labels and "
+"packages shipping vía MRW carrier"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "All"
+msgstr "All"
+
+msgid "Save taxes"
+msgstr "Save taxes"
+
+msgid "Tablerate"
+msgstr "Tablerate"
+
+msgid "Generate label"
+msgstr "Generate label"
+
+msgid "Generating label"
+msgstr "Generating label"
+
+msgid "Download label"
+msgstr "Download label"
+
+msgid "Shipping number:"
+msgstr "Shipping number:"
+
+msgid "Shipping information:"
+msgstr "Shipping information:"
+
+msgid "There is no tracking information yet"
+msgstr "There is no tracking information yet"
+
+msgid "There has been an error generating the label"
+msgstr "There has been an error generating the label"
+
+msgid "Tracking information"
+msgstr "Tracking information"
+
+msgid "Taxes saved"
+msgstr "Taxes saved"
+
+msgid "Ranges saved"
+msgstr "Ranges saved"
+
+msgid "There is an error in ranges configuration"
+msgstr "There is an error in ranges configuration"
+
+msgid "Calculate shipping from"
+msgstr "Calculate shipping from"
+
+msgid "Weight"
+msgstr "Weight"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Show most expensive/Don´t show"
+msgstr "Show most expensive/Don´t show"
+
+msgid "Show most expensive rate"
+msgstr "Show most expensive rate"
+
+msgid "There has been a problem saving taxes"
+msgstr "There has been a problem saving taxes"
+
+msgid "Add range"
+msgstr "Add range"
+
+msgid "Don`t show rate"
+msgstr "Don`t show rate"
+
+msgid "If there is no shipping rate that match"
+msgstr "If there is no shipping rate that match"
+
+msgid "The shipping label was generated successfully!"
+msgstr "The shipping label was generated successfully!"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Number of packages"
+msgstr "Number of packages"
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Deliver on Saturday"
+msgstr "Deliver on Saturday"
+
+msgid "With return"
+msgstr "With return"
+
+msgid "Default service"
+msgstr "Default service"
+
+msgid "Available services"
+msgstr "Available services"
+
+msgid "Wont be available if it isn't selected in available services"
+msgstr "Wont be available if it isn't selected in available services"
+
+msgid "Shipment information"
+msgstr "Shipment information"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Write a comment (Optional)"
+msgstr "Write a comment (Optional)"
+
+msgid "Delivery in franchise"
+msgstr "Delivery in franchise"
+
+msgid "Package apportionment"
+msgstr "Package apportionment"
+
+msgid "Check just in case your franchise tells you"
+msgstr "Check just in case your franchise tells you"
+
+msgid "MRW Tracking Password"
+msgstr "MRW Tracking Password"
+
+msgid "Check this option if you want to do package apportionment"
+msgstr "Check this option if you want to do package apportionment"
+
+msgid "Weight/Price"
+msgstr "Weight/Price"
+
+msgid "Delete range"
+msgstr "Delete range"
+
+msgid "Tracking password, ask the franchise"
+msgstr "Tracking password, ask the franchise"
+
+msgid "Pick up address"
+msgstr "Pick up address"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Street"
+msgstr "Street"
+
+msgid "Number"
+msgstr "Number"
+
+msgid "Postal code"
+msgstr "Postal code"
+
+msgid "City"
+msgstr "City"
+
+msgid "Change pick up address"
+msgstr "Change pick up address"
+
+msgid "Free delivery from"
+msgstr "Free delivery from"
+
+msgid "Delivery free if the order price is above this amount. 0 to disable"
+msgstr "Delivery free if the order price is above this amount. 0 to disable"
+
+msgid "Free shipping if the order price is above this amount. 0 to disable"
+msgstr "Free shipping if the order price is above this amount. 0 to disable"
+
+msgid "Spain"
+msgstr "Spain"
+
+msgid "Click on the select box to add available services"
+msgstr "Click on the select box to add available services"
+
+msgid "Time slot"
+msgstr "Time slot"
+
+msgid "Time slot (just for Ecommerce service)"
+msgstr "Time slot (just for Ecommerce service)"
+
+msgid "Don't use time slot"
+msgstr "Don't use time slot"
+
+msgid "Between 08:00 and 14:00 hours"
+msgstr "Between 08:00 and 14:00 hours"
+
+msgid "Between 16:00 and 19:00 hours"
+msgstr "Between 16:00 and 19:00 hours"
+
+msgid "Between 20:00 and 22:00 hours"
+msgstr "Between 20:00 and 22:00 hours"
+
+msgid "Order Status"
+msgstr "Order Status"
+
+msgid "Order status when the label is generated"
+msgstr "Order status when the label is generated"
+
+msgid "Class SOAP must be active in order to generate labels"
+msgstr "Class SOAP must be active in order to generate labels"
+
+msgid "Show order comments in labels"
+msgstr "Show order comments in labels"
+
+msgid "Check this option if you want to show order comments in the label"
+msgstr "Check this option if you want to show order comments in the label"
+
+msgid "Default service for national shippings"
+msgstr "Default service for national shippings"
+
+msgid "Default international service"
+msgstr "Default international service"
+
+msgid "Default service for international shipping"
+msgstr "Default service for international shipping"
+
+msgid "Marketplaces Flag"
+msgstr "Marketplaces Flag"
+
+msgid ""
+"Check this option if you want to print market places labels. Just in case "
+"your franchise tells you"
+msgstr ""
+"Check this option if you want to print market places labels. Just in case "
+"your franchise tells you"
+
+msgid "Total weight (Kg)"
+msgstr "Total weight (Kg)"
